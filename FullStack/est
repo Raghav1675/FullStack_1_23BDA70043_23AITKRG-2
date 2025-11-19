@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <style>
+        body { 
+            font-family: sans-serif; 
+            padding: 20px; 
+        }
+        .box {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Register</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Password</label>
+            <input type="password" required>
+
+            <button>Register</button>
+        </form>
+    </div>
+
+</body>
+</html>
